@@ -30,7 +30,7 @@ function InputBox(
             onCurrencyChange && onCurrencyChange(e.target.value)
           }}>
             {currencyOptions.map((Currency) => (
-              <option key={Currency} value={Currency} className="text-black">
+              <option key={Currency} value={Currency} className="text-black bg-slate-200">
                 {Currency.toUpperCase()}
               </option>
             )
